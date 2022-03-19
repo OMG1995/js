@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --animate-speed: 2s;
 }
@@ -15,6 +18,8 @@ body {
 
 a {
   text-decoration: none;
+  color: #93cb52;
+  transition: 0.45s;
 }
 
 p {
@@ -152,7 +157,7 @@ p {
 #showcase {
   background: #333 url("../img/20200322_38showcase.jpg") no-repeat center
     center/cover;
-  height: 100vh;
+  height: 96vh;
   color: #fff;
 }
 
@@ -207,6 +212,10 @@ p {
   padding: 1rem;
 }
 
+#what {
+  background: url(../img/ongo.PNG);
+}
+
 #what .items .item {
   flex: 1;
   text-align: center;
@@ -229,7 +238,7 @@ p {
 }
 
 #who .who-img {
-  background: url("../img/20200322_38people.jpg") no-repeat center center/cover;
+  background: url("../img/team\ work.jpg") no-repeat center center/cover;
 }
 
 /* Section Түнүүд */

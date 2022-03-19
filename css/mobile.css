@@ -35,9 +35,9 @@
     top: 113px;
   }
 
-  /* #who .who-text{
-  flex: auto;
-} */
+  #who .who-text {
+    flex: auto;
+  }
 
   #who {
     display: block;
@@ -61,4 +61,10 @@
   .m-heading {
     font-size: 1.5rem;
   }
+}
+.page-content h1 {
+  font-size: 3rem;
+}
+.btn {
+  margin-top: 1rem;
 }

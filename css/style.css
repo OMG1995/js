@@ -21,6 +21,10 @@ a {
   color: #93cb52;
   transition: 0.45s;
 }
+.social a:hover {
+  color: #4a632e;
+  transition: 0.2s;
+}
 
 p {
   margin: 0.75rem 0;
@@ -40,6 +44,9 @@ p {
 
 .text-primary {
   color: #93cb52;
+}
+.text-dark {
+  color: #333;
 }
 
 .bg-light {
@@ -92,6 +99,12 @@ p {
   color: #fff;
 }
 .mon {
+  text-align: center;
+  display: flex;
+  flex: 1;
+  padding: 3rem;
+}
+.copy {
   text-align: center;
 }
 .py-1 {
@@ -205,7 +218,14 @@ p {
 
   background: rgba(0, 0, 0, 0.6);
 }
-
+.showcase-content a:hover {
+  color: #4a632e;
+  transition: 0.2s;
+}
+.logo a:hover {
+  color: #4a632e;
+  transition: 0.2s;
+}
 /* Section: Бид юу хийдэг вэ? */
 #what .items {
   display: flex;
@@ -229,6 +249,17 @@ p {
 }
 
 /* Section: Бид хэн бэ ? */
+.footer-fb a {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+.footer-fb a:hover {
+  text-align: center;
+  color: rgb(37, 110, 219);
+  text-decoration: none;
+}
+
 #who {
   display: flex;
 }
@@ -252,6 +283,7 @@ p {
   width: 60%;
 }
 /* Section Contact */
+
 #contact {
   display: flex;
 }
@@ -263,6 +295,9 @@ p {
 
 #contact .contact-form .form-group {
   margin: 0.75rem;
+}
+#contact .contact-form ul li {
+  list-style: none;
 }
 
 #contact .contact-form label {
